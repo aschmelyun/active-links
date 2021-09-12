@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+temp
+tmp
+vendor
+.DS_Store

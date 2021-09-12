@@ -1,0 +1,29 @@
+{
+  "name": "active-links",
+  "version": "1.0.0",
+  "description": "Add classes to links if their href attribute matches the current url.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschmelyun/active-links.git"
+  },
+  "keywords": [
+    "links",
+    "href",
+    "class",
+    "classes",
+    "urls",
+    "active",
+    "active-links",
+    "active-link"
+  ],
+  "author": "aschmelyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aschmelyun/active-links/issues"
+  },
+  "homepage": "https://github.com/aschmelyun/active-links#readme"
+}
