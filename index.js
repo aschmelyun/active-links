@@ -15,16 +15,20 @@ module.exports = function activeLinks(elems, activeClasses, inactiveClasses) {
         let currentPath = currentUrl.pathname.endsWith('/') ? currentUrl.pathname.slice(0, -1) : currentUrl.pathname;
 
         if (elemPath === currentPath) {
-            elem.classList.add(
-                Array.isArray(activeClasses) ? activeClasses : activeClasses.split(',').map(item => item.trim())
-            );
+            let activeClassArray = Array.isArray(activeClasses) ? activeClasses : activeClasses
+                .split(',')
+                .map(item => item.trim());
+
+            elem.classList.add(...activeClassArray);
             return;
         }
 
         if (inactiveClasses) {
-            elem.classList.add(
-                Array.isArray(inactiveClasses) ? inactiveClasses : inactiveClasses.split(',').map(item => item.trim())
-            );
+            let inactiveClassArray = Array.isArray(inactiveClasses) ? inactiveClasses : inactiveClasses
+                .split(',')
+                .map(item => item.trim());
+
+            elem.classList.add(...inactiveClassArray);
         }
     });
 }

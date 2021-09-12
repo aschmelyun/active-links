@@ -1,6 +1,6 @@
 {
   "name": "active-links",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add classes to links if their href attribute matches the current url.",
   "main": "index.js",
   "scripts": {
