@@ -27,10 +27,6 @@ activeLinks('nav a', 'is-active', 'is-inactive');
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/pad-left/issues/new).
-
-## Contributing
-
 Pull requests and stars are welcome. Have an issue? [Submit it here!](https://github.com/aschmelyun/active-links/issues/new) Want to get in touch directly? Feel free to reach out to me on [Twitter](https://twitter.com/aschmelyun) for any other questions or comments.
 
 ## License
